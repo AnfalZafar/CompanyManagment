@@ -1,0 +1,74 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<CompanyManagmentApplication.Models.Products>;
+
+
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th scope="col">Product Id</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Description</th>
+            <th scope="col">Product Price</th>
+            <th scope="col">User Img</th>
+            <th scope="col">Verify Product</th>
+            <th scope="col">Dismis Product</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+@if(item.product_verify == ""){
+    <tr>
+                    <td>@item.product_id</td>
+                    <td>@item.product_name</td>
+                    <td>@item.product_description</td>
+                    <td>@item.product_price</td>
+                
+                <td>
+                    <img src="~/@Url.Content(item.Users.user_img)"
+                         alt=""
+                         style="width: 45px; height: 45px"
+                         class="rounded-circle" />
+                </td>
+
+                <td>
+                    <form asp-action="p_verify" asp-controller="Home" method="post">
+
+                    <input type="text" name="p_name" value="@item.product_name" />
+                        <input type="text" name="p_desc" value="@item.product_description" />
+                        <input type="text" name="p_price" value="@item.product_price" />
+                    <input type="text" name="p_id" value="@item.product_id"/>
+                        <input type="text" name="user_id" value="@item.user_id" />
+                        <button type="submit" class="btn btn-primary btn-sm btn-rounded">Verify</button>
+
+                    </form>
+
+                </td>
+               <td>
+                        <form asp-action="p_cancel" asp-controller="Home" method="post">
+
+                            <input type="text" name="p_name" value="@item.product_name" />
+                            <input type="text" name="p_desc" value="@item.product_description" />
+                            <input type="text" name="p_price" value="@item.product_price" />
+                            <input type="text" name="p_id" value="@item.product_id" />
+                            <input type="text" name="user_id" value="@item.user_id" />
+                            <button type="submit" class="btn btn-danger btn-sm btn-rounded">Cancel</button>
+
+                        </form>
+               </td>
+
+                </tr>
+            }
+            else
+            {
+                <h1>Not Have Any Products</h1>
+            }
+
+        }
+    </tbody>
+</table>

@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model CompanyManagmentApplication.Models.Products;
+
+<div class="container">
+    <div class="page-inner">
+        <div class="page-header">
+            <h3 class="fw-bold mb-3">Add Product Model</h3>
+
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Product Model</div>
+                    </div>
+
+                    <form class="w-75 m-auto mt-5" asp-action="product_add" asp-controller="Home">
+
+                        <div class="col">
+                            <div data-mdb-input-init class="form-outline">
+                        <label for="name">Your Name</label>
+
+                                <select id="name" asp-for="user_id" asp-items="@ViewBag.user_name">
+                            <option >User Name</option>
+                        </select>
+                        </div>
+                        </div>
+
+                            <div class="col">
+                                <div data-mdb-input-init class="form-outline">
+                                    <input type="text" asp-for="product_name" id="form3Example2" class="form-control" />
+                                    <label class="form-label" for="form3Example2">Product Name</label>
+                                </div>
+                            </div>
+
+                        <!-- address input -->
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="text" asp-for="product_price" id="form3Example3" class="form-control" />
+                            <label class="form-label" for="form3Example3">Product Price</label>
+                        </div>
+
+                        <!-- img input -->
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="text" asp-for="product_description" id="form3Example4" class="form-control" />
+                            <label class="form-label" for="form3Example4">Product Description</label>
+                        </div>
+
+
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Add Product</button>
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

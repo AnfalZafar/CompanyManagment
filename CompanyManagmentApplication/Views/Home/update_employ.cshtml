@@ -1,0 +1,82 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model CompanyManagmentApplication.Models.Users;
+
+
+<div class="container">
+    <div class="page-inner">
+        <div class="page-header">
+            <h3 class="fw-bold mb-3"></h3>
+
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Employs Form</div>
+                    </div>
+
+                    <form class="w-75 m-auto mt-5" asp-action="submit_employ" asp-controller="Home" method="post" enctype="multipart/form-data">
+                        <!-- 2 column grid layout with text inputs for the first names and email -->
+                        <div class="row mb-4">
+                            <div class="col">
+                                <div data-mdb-input-init class="form-outline">
+                                    <input asp-for="user_name" type="text" id="form3Example1" class="form-control" />
+                                    <label class="form-label" for="form3Example1">First name</label>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div data-mdb-input-init class="form-outline">
+                                    <input type="email" asp-for="user_email" id="form3Example2" class="form-control" />
+                                    <label class="form-label" for="form3Example2">Email</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 column grid layout with text inputs for the password and phone -->
+
+                        <div class="row mb-4">
+                            <div class="col">
+                                <div data-mdb-input-init class="form-outline">
+                                    <input type="text" asp-for="user_password" id="form3Example1" class="form-control" />
+                                    <label class="form-label" for="form3Example1">Password</label>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div data-mdb-input-init class="form-outline">
+                                    <input type="number" asp-for="user_phone" id="form3Example2" class="form-control" />
+                                    <label class="form-label" for="form3Example2">Phone</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- address input -->
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="text" asp-for="user_address" id="form3Example3" class="form-control" />
+                            <label class="form-label" for="form3Example3">Address</label>
+                        </div>
+
+                        <!-- img input -->
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="file" asp-for="user_img" id="form3Example4" class="form-control" />
+                            <label class="form-label" for="form3Example4">Profile Img</label>
+                        </div>
+
+
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

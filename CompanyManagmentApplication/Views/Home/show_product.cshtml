@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<CompanyManagmentApplication.Models.Products>;
+
+
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th scope="col">Product Id</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Description</th>
+            <th scope="col">Product Price</th>
+            <th scope="col">Product Img</th>
+            <th scope="col">Users Id</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @if (@item.product_verify == "1")
+            {
+                <tr>
+                    <td>@item.product_id</td>
+                    <td>@item.product_name</td>
+                    <td>@item.product_description</td>
+                    <td>@item.product_price</td>
+                    <td>@item.Users.user_name</td>
+          
+                </tr>
+            }
+            else
+            {
+                <h1>Empty</h1>
+            }
+        }
+    </tbody>
+</table>
