@@ -22,6 +22,28 @@ namespace CompanyManagmentApplication.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CompanyManagmentApplication.Models.Messages", b =>
+                {
+                    b.Property<int>("message_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("message_id"));
+
+                    b.Property<string>("message_object")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("user_id")
+                        .HasColumnType("int");
+
+                    b.HasKey("message_id");
+
+                    b.HasIndex("user_id");
+
+                    b.ToTable("Messages");
+                });
+
             modelBuilder.Entity("CompanyManagmentApplication.Models.Products", b =>
                 {
                     b.Property<int>("product_id")
@@ -113,6 +135,17 @@ namespace CompanyManagmentApplication.Migrations
                     b.HasIndex("role_id");
 
                     b.ToTable("users");
+                });
+
+            modelBuilder.Entity("CompanyManagmentApplication.Models.Messages", b =>
+                {
+                    b.HasOne("CompanyManagmentApplication.Models.Users", "Users")
+                        .WithMany()
+                        .HasForeignKey("user_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("CompanyManagmentApplication.Models.Products", b =>

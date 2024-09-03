@@ -14,21 +14,24 @@ namespace CompanyManagmentApplication.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
         private Data dbcontext;
+        public Models_Bind Models_Bind = new Models_Bind();
         public HomeController(ILogger<HomeController> logger , Data a)
         {
             this.dbcontext = a;
             _logger = logger;
+            Models_Bind.Products = dbcontext.Products.ToList();
+            Models_Bind.Users = dbcontext.users.ToList();
+            Models_Bind.Messages = dbcontext.Messages.ToList();
         }
 
         [Authorize]
         public IActionResult Index()
         {
             var show_product = dbcontext.Products.Include(s => s.Users).ToList();
-           
+            ViewBag.showProduct = show_product;
 
-            return View(show_product);
+            return View(Models_Bind);
         }
 
         [Authorize]
@@ -36,94 +39,130 @@ namespace CompanyManagmentApplication.Controllers
         {
             ViewBag.signup_error = signup_error;
 
-            return View();
+            return View(Models_Bind);
         }
 
-        public IActionResult submit_employ(Users a , IFormFile user_img)
+        [HttpPost]
+        public IActionResult submit_employ()
         {
-            var cheak = dbcontext.users.FirstOrDefault(s => s.user_email == a.user_email);
-            if (cheak == null) { 
-            if(user_img != null)
-            {
-                var Filename = Path.GetFileName(user_img.FileName);
-                var FilePath = Path.Combine("wwwroot/img", Filename);
-                var dbpath = Path.Combine("img/", Filename);
-                using(var stram = new FileStream(FilePath , FileMode.Create))
-                {
-                    user_img.CopyTo(stram);
+            if (!string.IsNullOrEmpty(Session_Class.User_Id)) {
+                var user_name = Request.Form["user_name"].ToString();
+                var user_pass = Request.Form["user_pass"].ToString();
+                var user_email = Request.Form["user_email"].ToString();
+                var user_phone = Request.Form["user_phone"].ToString();
+                var user_address = Request.Form["user_address"].ToString();
+                var user_img = Request.Form.Files["user_img"];
+                int role_id = 3;
+                var cheak = dbcontext.users.FirstOrDefault(s => s.user_email == user_email);
+                if (cheak == null) {
+                    if (user_img != null && user_img.Length > 0)
+                    {
+                        var Filename = Path.GetFileName(user_img.FileName);
+                        var FilePath = Path.Combine("wwwroot/img", Filename);
+                        var dbpath = Path.Combine("img/", Filename);
+                        using (var stram = new FileStream(FilePath, FileMode.Create))
+                        {
+                            user_img.CopyTo(stram);
+                        }
+                        Users products = new Users()
+                        {
+                            user_name = user_name,
+                            user_phone = user_phone,
+                            user_email = user_email,
+                            user_password = user_pass,
+                            user_address = user_address,
+                            user_img = dbpath,
+                            role_id = role_id
+                        };
+
+                        dbcontext.Add(products);
+                        dbcontext.SaveChanges();
+                        return RedirectToAction("show_employ");
+                    }
                 }
-                a.user_img = dbpath;
-                a.role_id = 3;
-                dbcontext.Add(a);
-                dbcontext.SaveChanges();
-                return RedirectToAction("show_employ");
             }
-            }
+
             else
             {
                 return RedirectToAction("add_employ", new { signup_error = "Email Is Already Taken" });
 
             }
+        
             return View();
         }
 
         [Authorize]
         public IActionResult show_employ()
         {
-           var data = dbcontext.users.ToList();
-            return View(data);
+           ViewBag.users = dbcontext.users.ToList();
+            return View(Models_Bind);
         }
 
        public IActionResult delete_employ(int? id)
         {
-            var FintId = dbcontext.users.Find(id);
-            if(FintId == null)
+            if (!string.IsNullOrEmpty(Session_Class.User_Id))
             {
-                return Content("Could'n get the Id");
+
+                var FintId = dbcontext.users.Find(id);
+                if (FintId == null)
+                {
+                    return Content("Could'n get the Id");
+                }
+                else
+                {
+                    dbcontext.Remove(FintId);
+                    dbcontext.SaveChanges();
+                    return RedirectToAction("show_employ");
+                }
             }
-            else
-            {
-                dbcontext.Remove(FintId);
-                dbcontext.SaveChanges();
-                return RedirectToAction("show_employ");
-            }
+            return Content("Could'n delete");
         }
 
         public IActionResult product_model()
         {
             ViewBag.user_name = new SelectList(dbcontext.users, "user_id", "user_name");
-            return View();
+            return View(Models_Bind);
         }
 
+        [HttpPost]
         public IActionResult product_add(Products model)
         {
-            var product_verify = "";
-
-            Products products = new Products()
+            if (!string.IsNullOrEmpty(Session_Class.User_Id))
             {
-                product_name = model.product_name,
-                product_description = model.product_description,
-                product_price = model.product_price,
-                product_verify = product_verify,
-                user_id = model.user_id
-            };
 
-            dbcontext.Add(products);
-            dbcontext.SaveChanges();
+                var p_name = Request.Form["name"].ToString();
+                var p_price = Request.Form["price"].ToString();
+                var p_desc = Request.Form["desc"].ToString();
+                int user_id = int.Parse(Request.Form["user_id"]);
+                var product_verify = "";
 
-            return RedirectToAction("product_model");
+                Products products = new Products()
+                {
+                    product_name = p_name,
+                    product_description = p_desc,
+                    product_price = p_price,
+                    product_verify = product_verify,
+                    user_id = user_id
+                };
+
+                dbcontext.Add(products);
+                dbcontext.SaveChanges();
+
+                return RedirectToAction("product_model");
+            }
+            return Content("Can't add ");
         }
 
         public IActionResult show_product()
         {
-            var product = dbcontext.Products.Include(s => s.Users).ToList();
-            return View(product);
+            ViewBag.product = dbcontext.Products.Include(s => s.Users).ToList();
+            return View(Models_Bind);
         }
 
         public IActionResult verify_product(int? id)
         {
-            var product_verify = dbcontext.Products.Include(s => s.Users).Where(s => s.user_id == id).ToList();
-            return View(product_verify);
+            ViewBag.verify = dbcontext.Products.Include(s => s.Users).Where(s => s.user_id == id).ToList();
+            return View(Models_Bind);
             
         }
 
@@ -146,7 +185,12 @@ namespace CompanyManagmentApplication.Controllers
                 user_id = user_id,
                 product_verify = p_verify
             };
-            dbcontext.Update(products);
+           var update = dbcontext.Products.Find(p_id);
+            if (update == null)
+            {
+                return Content("Id not found");
+            }
+            dbcontext.Entry(update).CurrentValues.SetValues(products);
             dbcontext.SaveChanges();
             return RedirectToAction("show_product");
         }
@@ -170,11 +214,65 @@ namespace CompanyManagmentApplication.Controllers
                 user_id = user_id,
                 product_verify = p_verify
             };
-            dbcontext.Update(products);
+            var delete = dbcontext.Products.Find(p_id);
+            if (delete == null)
+            {
+                return Content("Id not found");
+            }
+            dbcontext.Entry(delete).CurrentValues.SetValues(products);
             dbcontext.SaveChanges();
             return RedirectToAction("show_product");
         }
 
+        public IActionResult cancel_product()
+        {
+            ViewBag.cancel_product = dbcontext.Products.Include(s => s.Users).ToList();
+            return View(Models_Bind);
+        }
+
+        public IActionResult pending_product()
+        {
+            ViewBag.pending_product = dbcontext.Products.Include(s => s.Users).ToList();
+            return View(Models_Bind);
+        }
+
+        public IActionResult update_cancel_product(int? id)
+        {
+            return View();
+        }
+
+        public IActionResult your_pending_product()
+        {
+            ViewBag.your_product = dbcontext.Products.Include(s => s.Users).ToList();
+            return View(Models_Bind);
+        }
+
+        public IActionResult admin_message()
+        {
+            ViewBag.message = new SelectList(dbcontext.users.Where(s =>s.role_id == 1), "user_id", "user_name");
+            return View(Models_Bind);
+        }
+
+        [HttpPost]
+        public IActionResult submit_admin_message()
+        {
+            if (!string.IsNullOrEmpty(Session_Class.User_Id))
+            {
+                
+                var message = Request.Form["message"].ToString();
+                int user_id = int.Parse(Request.Form["user_id"]);
+
+                Messages messages = new Messages()
+                {
+                    message_object = message,
+                    user_id = user_id
+                };
+                dbcontext.Add(messages);
+                dbcontext.SaveChanges();
+                return RedirectToAction("admin_message");
+            }
+            return RedirectToAction("signup" , "SignUp");
+        }
         public IActionResult Privacy()
         {
             return View();

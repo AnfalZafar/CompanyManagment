@@ -12,6 +12,7 @@ namespace CompanyManagmentApplication.Database
         public DbSet<Users> users { get; set; }
         public DbSet<Role> roles { get; set; }
         public DbSet<Products> Products { get; set; }
+        public DbSet<Messages> Messages { get; set; }
 
     }
 }

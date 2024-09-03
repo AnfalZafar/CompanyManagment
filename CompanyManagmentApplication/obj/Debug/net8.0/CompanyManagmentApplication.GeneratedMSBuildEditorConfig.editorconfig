@@ -9,75 +9,91 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CompanyManagmentApplication
 build_property.RootNamespace = CompanyManagmentApplication
-build_property.ProjectDir = C:\Users\Noman Traders\Desktop\CompanyManagmentApplication\CompanyManagmentApplication\
+build_property.ProjectDir = C:\Users\Noman Traders\Desktop\CompanyManagment\CompanyManagmentApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Noman Traders\Desktop\CompanyManagmentApplication\CompanyManagmentApplication
+build_property.MSBuildProjectDirectory = C:\Users\Noman Traders\Desktop\CompanyManagment\CompanyManagmentApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Home/add_employ.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/add_employ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZGRfZW1wbG95LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Home/Index.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/admin_message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZG1pbl9tZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/cancel_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYW5jZWxfcHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Home/Privacy.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/pending_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwZW5kaW5nX3Byb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Home/product_model.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/product_model.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcm9kdWN0X21vZGVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Home/show_employ.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/show_employ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG93X2VtcGxveS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Home/show_product.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/show_product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG93X3Byb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Home/update_employ.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/update_employ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx1cGRhdGVfZW1wbG95LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Home/verify_product.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/verify_product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2ZXJpZnlfcHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Shared/Error.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/your_pending_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx5b3VyX3BlbmRpbmdfcHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Shared/SignUp.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Shared/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZ25VcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/SignUp/Index.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/SignUp/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/SignUp/SignIn.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/SignUp/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXFNpZ25Jbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/_ViewImports.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/_ViewStart.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Noman Traders/Desktop/CompanyManagmentApplication/CompanyManagmentApplication/Views/Shared/_Layout.cshtml]
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ih366kxgvr

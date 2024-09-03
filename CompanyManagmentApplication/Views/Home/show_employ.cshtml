@@ -3,41 +3,44 @@
 *@
 @{
 }
-@model IEnumerable<CompanyManagmentApplication.Models.Users>;
+
 
 
 <table class="table mt-5">
     <thead>
         <tr>
             <th scope="col">Employ Id</th>
+            <th scope="col">Role Id</th>
+            <th scope="col">Employ Img</th>
             <th scope="col">Employ Name</th>
             <th scope="col">Employ Email</th>
             <th scope="col">Employ Password</th>
             <th scope="col">Employ Address</th>
             <th scope="col">Employ Phone</th>
-            <th scope="col">Employ Img</th>
-            <th scope="col">Role Id</th>
             <th scope="col">Delete Employ</th>
 
 
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in ViewBag.users)
         {
             @if(@item.role_id == 3){
             <tr>
                 <td>@item.user_id</td>
-                <td>@item.user_name</td>
+                    <td>@item.role_id</td>
+                    <td>
+                        <img src="~/@Url.Content(item.user_img)"
+                             alt=""
+                             style="width: 45px; height: 45px"
+                             class="rounded-circle" />
+                    </td>
+                    <td>@item.user_name</td>
                 <td>@item.user_email</td>
                 <td>@item.user_password</td>
                 <td>@item.user_address</td>
                 <td>@item.user_phone</td>
-                <td> <img src="~/@Url.Content(item.user_img)"
-                                 alt=""
-                                 style="width: 45px; height: 45px"
-                                 class="rounded-circle" /></td>
-                <td>@item.role_id</td>
+          
                 <td><a asp-route-id="@item.user_id" asp-controller="Home" asp-action="delete_employ" class="btn btn-danger btn-sm btn-rounded">Delete</a></td>
 
 

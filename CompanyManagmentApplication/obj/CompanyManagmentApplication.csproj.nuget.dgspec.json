@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj": {}
+    "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj": {
+    "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj",
         "projectName": "CompanyManagmentApplication",
-        "projectPath": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj",
+        "projectPath": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj",
         "packagesPath": "C:\\Users\\Noman Traders\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\obj\\",
+        "outputPath": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Noman Traders\\AppData\\Roaming\\NuGet\\NuGet.Config",

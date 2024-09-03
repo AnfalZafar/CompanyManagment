@@ -1,652 +1,656 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CompanyManagmentApplication.bundle.scp.css",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CompanyManagmentApplication.bundle.scp.css",
       "PackagePath": "staticwebassets\\CompanyManagmentApplication.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\css\\style.css",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\css\\style.css",
       "PackagePath": "staticwebassets\\FormAsseets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\css\\style.css.map",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\css\\style.css.map",
       "PackagePath": "staticwebassets\\FormAsseets\\css\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\css\\material-design-iconic-font.css",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\css\\material-design-iconic-font.css",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\material-icon\\css\\material-design-iconic-font.css"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\css\\material-design-iconic-font.min.css",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\css\\material-design-iconic-font.min.css",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\material-icon\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-300italic.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-500italic.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-600.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-700italic.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-800italic.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-900.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-italic.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\poppins-v5-latin-regular.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-700italic.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-italic.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.eot",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.svg",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.ttf",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2",
       "PackagePath": "staticwebassets\\FormAsseets\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\images\\signin-image.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\images\\signin-image.jpg",
       "PackagePath": "staticwebassets\\FormAsseets\\images\\signin-image.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\images\\signup-image.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\images\\signup-image.jpg",
       "PackagePath": "staticwebassets\\FormAsseets\\images\\signup-image.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\js\\main.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\js\\main.js",
       "PackagePath": "staticwebassets\\FormAsseets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\extend.scss",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\extend.scss",
       "PackagePath": "staticwebassets\\FormAsseets\\scss\\common\\extend.scss"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\fonts.scss",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\fonts.scss",
       "PackagePath": "staticwebassets\\FormAsseets\\scss\\common\\fonts.scss"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\global.scss",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\global.scss",
       "PackagePath": "staticwebassets\\FormAsseets\\scss\\common\\global.scss"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\minxi.scss",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\minxi.scss",
       "PackagePath": "staticwebassets\\FormAsseets\\scss\\common\\minxi.scss"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\variables.scss",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\common\\variables.scss",
       "PackagePath": "staticwebassets\\FormAsseets\\scss\\common\\variables.scss"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\layouts\\main.scss",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\layouts\\main.scss",
       "PackagePath": "staticwebassets\\FormAsseets\\scss\\layouts\\main.scss"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\layouts\\responsive.scss",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\layouts\\responsive.scss",
       "PackagePath": "staticwebassets\\FormAsseets\\scss\\layouts\\responsive.scss"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\style.scss",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\scss\\style.scss",
       "PackagePath": "staticwebassets\\FormAsseets\\scss\\style.scss"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\vendor\\jquery\\jquery-ui.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\vendor\\jquery\\jquery-ui.min.js",
       "PackagePath": "staticwebassets\\FormAsseets\\vendor\\jquery\\jquery-ui.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\vendor\\jquery\\jquery.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\FormAsseets\\vendor\\jquery\\jquery.min.js",
       "PackagePath": "staticwebassets\\FormAsseets\\vendor\\jquery\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\css\\demo.css",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\css\\demo.css",
       "PackagePath": "staticwebassets\\assets\\css\\demo.css"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\css\\kaiadmin.min.css",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\css\\kaiadmin.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\kaiadmin.min.css"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\css\\plugins.min.css",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\css\\plugins.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\plugins.min.css"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.eot",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\summernote\\summernote.eot"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.eot@",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.eot@",
       "PackagePath": "staticwebassets\\assets\\fonts\\summernote\\summernote.eot@"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.ttf",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\summernote\\summernote.ttf"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.woff",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\summernote\\summernote.woff"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.woff2",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\fonts\\summernote\\summernote.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\summernote\\summernote.woff2"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\bg-404.jpeg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\bg-404.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\bg-404.jpeg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\blogpost.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\blogpost.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blogpost.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\chadengle.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\chadengle.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\chadengle.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\examples\\product1.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\examples\\product1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\examples\\product1.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\examples\\product3.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\examples\\product3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\examples\\product3.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\examples\\product4.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\examples\\product4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\examples\\product4.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\au.png",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\au.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\au.png"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\br.png",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\br.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\br.png"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\cn.png",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\cn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cn.png"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\id.png",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\id.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\id.png"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\ru.png",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\ru.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ru.png"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\us.png",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\flags\\us.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\us.png"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\img-shadow.png",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\img-shadow.png",
       "PackagePath": "staticwebassets\\assets\\img\\img-shadow.png"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\jm_denis.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\jm_denis.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\jm_denis.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\kaiadmin\\favicon.ico",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\kaiadmin\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\img\\kaiadmin\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\kaiadmin\\logo_light.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\kaiadmin\\logo_light.svg",
       "PackagePath": "staticwebassets\\assets\\img\\kaiadmin\\logo_light.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\logoproduct.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\logoproduct.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logoproduct.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\logoproduct3.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\logoproduct3.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logoproduct3.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\mlane.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\mlane.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\mlane.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\profile.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\profile.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profile.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\profile2.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\profile2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profile2.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\talha.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\talha.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\talha.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\img\\visa.svg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\img\\visa.svg",
       "PackagePath": "staticwebassets\\assets\\img\\visa.svg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\core\\jquery-3.7.1.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\core\\jquery-3.7.1.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\jquery-3.7.1.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\core\\popper.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\demo.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\demo.js",
       "PackagePath": "staticwebassets\\assets\\js\\demo.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\kaiadmin.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\kaiadmin.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\kaiadmin.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\chart-circle\\circles.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\chart-circle\\circles.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\chart-circle\\circles.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\chart.js\\chart.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\chart.js\\chart.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\chart.js\\chart.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\datatables\\datatables.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\datatables\\datatables.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\datatables\\datatables.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\gmaps\\gmaps.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\gmaps\\gmaps.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\gmaps\\gmaps.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\jsvectormap\\jsvectormap.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\jsvectormap\\jsvectormap.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\jsvectormap\\jsvectormap.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\jsvectormap\\world.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\jsvectormap\\world.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\jsvectormap\\world.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\moment\\moment.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\moment\\moment.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\moment\\moment.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\sweetalert\\sweetalert.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\sweetalert\\sweetalert.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\sweetalert\\sweetalert.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\webfont\\webfont.min.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\plugin\\webfont\\webfont.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugin\\webfont\\webfont.min.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\setting-demo.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\setting-demo.js",
       "PackagePath": "staticwebassets\\assets\\js\\setting-demo.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\assets\\js\\setting-demo2.js",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\assets\\js\\setting-demo2.js",
       "PackagePath": "staticwebassets\\assets\\js\\setting-demo2.js"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\img\\3.PNG",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\img\\3.PNG",
       "PackagePath": "staticwebassets\\img\\3.PNG"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\img\\6.PNG",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\img\\6.PNG",
       "PackagePath": "staticwebassets\\img\\6.PNG"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\img\\aboutus.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\img\\aboutus.jpg",
       "PackagePath": "staticwebassets\\img\\aboutus.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\img\\block1.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\img\\block1.jpg",
       "PackagePath": "staticwebassets\\img\\block1.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\img\\d4782df1-cc06-4549-a25b-19f85e99d456.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\img\\d4782df1-cc06-4549-a25b-19f85e99d456.jpg",
       "PackagePath": "staticwebassets\\img\\d4782df1-cc06-4549-a25b-19f85e99d456.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\img\\download.jpeg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\img\\download.jpeg",
       "PackagePath": "staticwebassets\\img\\download.jpeg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\img\\e2e90bdd-592a-464f-bdb1-6e2b7b6bc7c1.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\img\\e2e90bdd-592a-464f-bdb1-6e2b7b6bc7c1.jpg",
       "PackagePath": "staticwebassets\\img\\e2e90bdd-592a-464f-bdb1-6e2b7b6bc7c1.jpg"
     },
     {
-      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\wwwroot\\img\\ronaldo.jpg",
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\img\\ronaldo.jpg",
       "PackagePath": "staticwebassets\\img\\ronaldo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\wwwroot\\img\\twitter 2.PNG",
+      "PackagePath": "staticwebassets\\img\\twitter 2.PNG"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CompanyManagmentApplication.Microsoft.AspNetCore.StaticWebAssets.props",

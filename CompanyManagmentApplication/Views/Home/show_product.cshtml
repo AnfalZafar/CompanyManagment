@@ -3,10 +3,9 @@
 *@
 @{
 }
-@model IEnumerable<CompanyManagmentApplication.Models.Products>;
 
 
-<table class="table mt-5">
+<table class="table mt-5" style="margin-top:10rem;background:red;">
     <thead>
         <tr>
             <th scope="col">Product Id</th>
@@ -19,7 +18,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in ViewBag.product)
         {
             @if (@item.product_verify == "1")
             {
@@ -29,13 +28,10 @@
                     <td>@item.product_description</td>
                     <td>@item.product_price</td>
                     <td>@item.Users.user_name</td>
-          
+
                 </tr>
             }
-            else
-            {
-                <h1>Empty</h1>
-            }
+
         }
     </tbody>
 </table>

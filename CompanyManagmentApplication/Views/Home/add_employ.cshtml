@@ -4,8 +4,6 @@
 @{
 }
 
-@model CompanyManagmentApplication.Models.Users;
-
 @if (!string.IsNullOrEmpty(ViewBag.signup_error))
 {
     <script>
@@ -31,14 +29,14 @@
                         <div class="row mb-4">
                             <div class="col">
                                 <div data-mdb-input-init class="form-outline">
-                                    <input asp-for="user_name" type="text" id="form3Example1" class="form-control" />
+                                    <input name="user_name" type="text" id="form3Example1" class="form-control" />
                                     <label class="form-label" for="form3Example1">First name</label>
                                 </div>
                             </div>
 
                             <div class="col">
                                 <div data-mdb-input-init class="form-outline">
-                                    <input type="email" asp-for="user_email" id="form3Example2" class="form-control" />
+                                    <input type="email" name="user_email" id="form3Example2" class="form-control" />
                                     <label class="form-label" for="form3Example2">Email</label>
                                 </div>
                             </div>
@@ -48,14 +46,14 @@
                         <div class="row mb-4">
                             <div class="col">
                                 <div data-mdb-input-init class="form-outline">
-                                    <input type="text" asp-for="user_password" id="form3Example1" class="form-control" />
+                                    <input type="text" name="user_pass" id="form3Example1" class="form-control" />
                                     <label class="form-label" for="form3Example1">Password</label>
                                 </div>
                             </div>
 
                             <div class="col">
                                 <div data-mdb-input-init class="form-outline">
-                                    <input type="number" asp-for="user_phone" id="form3Example2" class="form-control" />
+                                    <input type="number" name="user_phone" id="form3Example2" class="form-control" />
                                     <label class="form-label" for="form3Example2">Phone</label>
                                 </div>
                             </div>
@@ -63,20 +61,20 @@
 
                         <!-- address input -->
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <input type="text" asp-for="user_address" id="form3Example3" class="form-control" />
+                            <input type="text" name="user_address" id="form3Example3" class="form-control" />
                             <label class="form-label" for="form3Example3">Address</label>
                         </div>
 
                         <!-- img input -->
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <input type="file" asp-for="user_img" id="form3Example4" class="form-control" />
+                            <input type="file" name="user_img" id="form3Example4" class="form-control" />
                             <label class="form-label" for="form3Example4">Profile Img</label>
                         </div>
 
 
 
                         <!-- Submit button -->
-                        <button  type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+                        <button  type="submit" class="btn btn-primary btn-block mb-4">Add Employ</button>
 
 
                     </form>

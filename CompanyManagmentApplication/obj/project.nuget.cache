@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g5dmF3Ea7+lf7kf6abQgZ8Gs4he44wfvARSW8y2ysDRCBZrVsYidgjSYpwDcUIfo1XfugUAzXGMRYtM4GtMCeg==",
+  "dgSpecHash": "OolHiv4Dteg4VdkQ3fmPv4/WLCq3x1tCT1j18HX2TkidsQAD65lkO5T8zkO/cNhWmW009NWLkjXwg9GQV+gowA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagmentApplication\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj",
+  "projectFilePath": "C:\\Users\\Noman Traders\\Desktop\\CompanyManagment\\CompanyManagmentApplication\\CompanyManagmentApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Noman Traders\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Noman Traders\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

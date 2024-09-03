@@ -23,7 +23,7 @@ builder.Services.AddDistributedMemoryCache();
 //for session meddel ware
 builder.Services.AddSession(option =>
 {
-    option.IdleTimeout = TimeSpan.FromSeconds(1800);
+    option.IdleTimeout = TimeSpan.FromSeconds(120);
     option.Cookie.HttpOnly = true;
     option.Cookie.IsEssential = true;
 });

@@ -17,6 +17,7 @@ namespace CompanyManagmentApplication.Controllers
             this.dbcontext = dbcontext;
         }
 
+        [Authorize]
         public IActionResult Index(string error , string signup_error , string user_error)
         {
             ViewBag.error = error;
@@ -69,12 +70,6 @@ namespace CompanyManagmentApplication.Controllers
         [HttpPost]
         public IActionResult Login(Users user)
         {
-            var user_email = Request.Form["user_email"].ToString();
-            var user_pass = Request.Form["user_password"].ToString();
-
-          
-            // Find the user in the database
-            var find_user = dbcontext.users.FirstOrDefault(s => s.user_email == user_email && s.user_password == user_pass);
 
             //if (find_user == null)
             //{
@@ -88,46 +83,78 @@ namespace CompanyManagmentApplication.Controllers
             //    Session_Class.User_Id = find_user.user_id;
             //    Session_Class.User_Img = find_user.user_img;
             //}
+            var user_email = Request.Form["user_email"].ToString();
+            var user_pass = Request.Form["user_password"].ToString();
 
-            ClaimsIdentity identity = null;
-            bool authorize = false;
-
-            // Check the user's role
-            if (find_user.role_id == 1)
-            {
-                identity = new ClaimsIdentity(new[]
+            try {
+               
+                // Find the user in the database
+                var find_user = dbcontext.users.FirstOrDefault(s => s.user_email == user_email && s.user_password == user_pass);
+                if (find_user != null)
                 {
+                    ClaimsIdentity identity = null;
+                    bool authorize = false;
+                    // Check the user's role
+                    if (find_user.role_id == 1)
+                    {
+                        identity = new ClaimsIdentity(new[]
+                        {
                 new Claim(ClaimTypes.Email, user_email),
                 new Claim(ClaimTypes.Role, "Admin")
                 }, CookieAuthenticationDefaults.AuthenticationScheme);
-                authorize = true;
+                        authorize = true;
+                           HttpContext.Session.SetString("User_name", find_user.user_name);
+                           HttpContext.Session.SetString("User_email", find_user.user_email);
+                           HttpContext.Session.SetString("User_img", find_user.user_img);
+                           Session_Class.User_Name = find_user.user_name;
+                           Session_Class.User_Email = find_user.user_email;
+                           Session_Class.User_Phone = find_user.user_phone;
+                           Session_Class.User_Address = find_user.user_address;
+                           Session_Class.User_Id = find_user.user_id.ToString();
+                           Session_Class.User_Img = find_user.user_img; //    HttpContext.Session.SetString("User_name", find_user.user_name);
+                        Session_Class.role_id = find_user.role_id;
 
-            }
-            else if (find_user.role_id == 3)
-            {
-                identity = new ClaimsIdentity(new[]
-                {
+                    }
+                    else if (find_user.role_id == 3)
+                    {
+                        identity = new ClaimsIdentity(new[]
+                        {
             new Claim(ClaimTypes.Email, user_email),
             new Claim(ClaimTypes.Role, "Employ")
         }, CookieAuthenticationDefaults.AuthenticationScheme);
-                authorize = true;
+                        authorize = true;
+                          HttpContext.Session.SetString("User_name", find_user.user_name);
+                          HttpContext.Session.SetString("User_email", find_user.user_email);
+                          HttpContext.Session.SetString("User_img", find_user.user_img);
+                          Session_Class.User_Name = find_user.user_name;
+                          Session_Class.User_Email = find_user.user_email;
+                          Session_Class.User_Phone = find_user.user_phone;
+                          Session_Class.User_Address = find_user.user_address;
+                          Session_Class.User_Id = find_user.user_id.ToString();
+                          Session_Class.User_Img = find_user.user_img;
+                        Session_Class.role_id = find_user.role_id;
+                    }
+
+                    if (authorize)
+                    {
+                        var principal = new ClaimsPrincipal(identity);
+                        var signIn = HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+
+
+                        // Redirect based on the user's role
+                        return RedirectToAction("Index", "Home");
+                    }
+                   
+                    
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "User Not Found");
             }
 
-            if (authorize)
-            {
-                var principal = new ClaimsPrincipal(identity);
-                var signIn = HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+            return RedirectToAction("Index", new { error = "Your Email OR Password is Incorrect" });
 
-                
-                // Redirect based on the user's role
-                return RedirectToAction("Index", "Home");
-            }
-            else
-            {
-                // Log authorization failure
-                Console.WriteLine("Authorization failed.");
-                return RedirectToAction("Index", new { error = "Your Email OR Password is Incorrect" });
-            }
         }
 
 
