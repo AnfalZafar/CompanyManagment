@@ -247,8 +247,9 @@ namespace CompanyManagmentApplication.Controllers
             return View(Models_Bind);
         }
 
-        public IActionResult admin_message()
+        public IActionResult admin_message(string id_message)
         {
+            ViewBag.id_message = id_message;
             ViewBag.message = new SelectList(dbcontext.users.Where(s =>s.role_id == 1), "user_id", "user_name");
             return View(Models_Bind);
         }
@@ -258,14 +259,16 @@ namespace CompanyManagmentApplication.Controllers
         {
             if (!string.IsNullOrEmpty(Session_Class.User_Id))
             {
-                
+              
                 var message = Request.Form["message"].ToString();
-                int user_id = int.Parse(Request.Form["user_id"]);
-
+                var to_email = Request.Form["to_email"].ToString();
+                var from_email = Request.Form["from_email"].ToString();
+               
                 Messages messages = new Messages()
                 {
                     message_object = message,
-                    user_id = user_id
+                    to_email = to_email,
+                    from_email = from_email,
                 };
                 dbcontext.Add(messages);
                 dbcontext.SaveChanges();
@@ -273,6 +276,36 @@ namespace CompanyManagmentApplication.Controllers
             }
             return RedirectToAction("signup" , "SignUp");
         }
+
+        public IActionResult employ_message(string id_message)
+        {
+            ViewBag.id_message = id_message;
+            return View(Models_Bind);
+        }
+
+        [HttpPost]
+        public IActionResult submit_employ_message()
+        {
+            if (!string.IsNullOrEmpty(Session_Class.User_Id))
+            {
+
+                var message = Request.Form["message"].ToString();
+                var to_email = Request.Form["to_email"].ToString();
+                var from_email = Request.Form["from_email"].ToString();
+
+                Messages messages = new Messages()
+                {
+                    message_object = message,
+                    to_email = to_email,
+                    from_email = from_email,
+                };
+                dbcontext.Add(messages);
+                dbcontext.SaveChanges();
+                return RedirectToAction("admin_message");
+            }
+            return RedirectToAction("signup", "SignUp");
+        }
+
         public IActionResult Privacy()
         {
             return View();
