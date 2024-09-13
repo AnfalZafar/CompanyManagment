@@ -159,7 +159,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="maps/jsvectormap.html">
+                                        <a asp-action="Reject_product" asp-controller="HOme">
                                             <span class="sub-item">Reject Products</span>
                                         </a>
                                     </li>
@@ -199,17 +199,16 @@
 
 
                         <li class="nav-item">
-                            <a href="widgets.html">
+                            <a asp-action="your_messages" asp-controller="Home">
                                 <i class="fas fa-desktop"></i>
-                                <p>Widgets</p>
-                                <span class="badge badge-success">4</span>
+                                <p>Replay Messages</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../../documentation/index.html">
+                            <a asp-action="you_replay_messages" asp-controller="Home">
                                 <i class="fas fa-file"></i>
-                                <p>Documentation</p>
-                                <span class="badge badge-secondary">1</span>
+                                <p>You Replay messages</p>
+                                
                             </a>
                         </li>
                         <li class="nav-item">
@@ -363,7 +362,8 @@
                                                         {
                                                             if (message.from_email == user.user_email)
                                                             {
-                                                    <a href="#">
+                                                                if(message.to_email == Session_Class.User_Email){
+                                                                    <a asp-route-id="@message.message_id" asp-action="message_profile" asp-controller="Home">
                                                         <div class="notif-img">
                                                                    <img src="~/@Url.Content(user.user_img)"
                                                                  alt="Img Profile" />
@@ -376,6 +376,7 @@
                                                             
                                                         </div>
                                                     </a>
+                                                                }
                                                     }
                                                     }
                                                     } 
@@ -568,11 +569,12 @@
                     </li>
                     </ul>
             </div>
-            </nav>
+            
         </div>
             <!-- End Navbar -->
-
+             <div class="container">
                     @RenderBody();
+                    </div>
         </div>
     
         <!-- End Custom template -->

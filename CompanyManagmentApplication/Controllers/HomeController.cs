@@ -23,6 +23,7 @@ namespace CompanyManagmentApplication.Controllers
             Models_Bind.Products = dbcontext.Products.ToList();
             Models_Bind.Users = dbcontext.users.ToList();
             Models_Bind.Messages = dbcontext.Messages.ToList();
+            Models_Bind.message_Replays = dbcontext.message_Replays.ToList();
         }
 
         [Authorize]
@@ -31,6 +32,12 @@ namespace CompanyManagmentApplication.Controllers
             var show_product = dbcontext.Products.Include(s => s.Users).ToList();
             ViewBag.showProduct = show_product;
 
+            return View(Models_Bind);
+        }
+
+        [Authorize]
+        public IActionResult user_profile()
+        {
             return View(Models_Bind);
         }
 
@@ -153,12 +160,14 @@ namespace CompanyManagmentApplication.Controllers
             return Content("Can't add ");
         }
 
+        [Authorize]
         public IActionResult show_product()
         {
             ViewBag.product = dbcontext.Products.Include(s => s.Users).ToList();
             return View(Models_Bind);
         }
 
+        [Authorize]
         public IActionResult verify_product(int? id)
         {
             ViewBag.verify = dbcontext.Products.Include(s => s.Users).Where(s => s.user_id == id).ToList();
@@ -195,6 +204,7 @@ namespace CompanyManagmentApplication.Controllers
             return RedirectToAction("show_product");
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult p_cancel()
         {
@@ -224,15 +234,24 @@ namespace CompanyManagmentApplication.Controllers
             return RedirectToAction("show_product");
         }
 
+        [Authorize]
         public IActionResult cancel_product()
         {
             ViewBag.cancel_product = dbcontext.Products.Include(s => s.Users).ToList();
             return View(Models_Bind);
         }
 
+        [Authorize]
         public IActionResult pending_product()
         {
             ViewBag.pending_product = dbcontext.Products.Include(s => s.Users).ToList();
+            return View(Models_Bind);
+        }
+
+        [Authorize]
+        public IActionResult Reject_product()
+        {
+            ViewBag.reject_product = dbcontext.Products.Include(s => s.Users).ToList();
             return View(Models_Bind);
         }
 
@@ -241,12 +260,14 @@ namespace CompanyManagmentApplication.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult your_pending_product()
         {
             ViewBag.your_product = dbcontext.Products.Include(s => s.Users).ToList();
             return View(Models_Bind);
         }
 
+        [Authorize]
         public IActionResult admin_message(string id_message)
         {
             ViewBag.id_message = id_message;
@@ -277,6 +298,7 @@ namespace CompanyManagmentApplication.Controllers
             return RedirectToAction("signup" , "SignUp");
         }
 
+        [Authorize]
         public IActionResult employ_message(string id_message)
         {
             ViewBag.id_message = id_message;
@@ -292,12 +314,14 @@ namespace CompanyManagmentApplication.Controllers
                 var message = Request.Form["message"].ToString();
                 var to_email = Request.Form["to_email"].ToString();
                 var from_email = Request.Form["from_email"].ToString();
+                int user_id = int.Parse(Request.Form["user_id"]);
 
                 Messages messages = new Messages()
                 {
                     message_object = message,
                     to_email = to_email,
                     from_email = from_email,
+                    user_id = user_id
                 };
                 dbcontext.Add(messages);
                 dbcontext.SaveChanges();
@@ -306,11 +330,89 @@ namespace CompanyManagmentApplication.Controllers
             return RedirectToAction("signup", "SignUp");
         }
 
+        [Authorize]
+        public IActionResult message_profile(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var message = dbcontext.Messages.Where(s => s.message_id == id).ToList();
+
+            if (message == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.find_id = message;
+            return View(Models_Bind);
+        }
+
+        [HttpPost]
+        public IActionResult replay_message()
+        {
+            int message_id = int.Parse(Request.Form["message_user_id"]);
+            var replay_text = Request.Form["replay_text"].ToString();
+            Message_Replay message_Replay = new Message_Replay()
+            {
+                message_id = message_id,
+                Replay_text = replay_text
+            };
+            dbcontext.Add(message_Replay);
+            dbcontext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        [Authorize]
+        public IActionResult your_messages()
+        {
+            ViewBag.messages = dbcontext.message_Replays.Include(s => s.Messages).ToList();
+      
+            return View(Models_Bind);
+        }
+
+        public IActionResult replay_message_profile(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var message_id = dbcontext.message_Replays.Include(s => s.Messages).Where(s => s.Id == id).ToList();
+           if(message_id == null)
+            {
+                return Content("message not found");
+            }
+            ViewBag.message_id = message_id;
+            return View(Models_Bind);
+        }
+
+        [HttpPost]
+        public IActionResult replay_message_replay()
+        {
+            int message_id = int.Parse(Request.Form["message_user_id"]);
+            var replay_text = Request.Form["replay_text"].ToString();
+            Message_Replay message_Replay = new Message_Replay()
+            {
+                message_id = message_id,
+                Replay_text = replay_text
+            };
+            dbcontext.Add(message_Replay);
+            dbcontext.SaveChanges();
+            return RedirectToAction("Index");
+        }   
+        public IActionResult you_replay_messages()
+        {
+            ViewBag.messages = dbcontext.message_Replays.Include(s => s.Messages).ToList();
+            return View(Models_Bind);
+        }
+
         public IActionResult Privacy()
         {
             return View();
         }
 
+       
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

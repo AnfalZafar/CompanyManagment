@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model CompanyManagmentApplication.Models.Models_Bind;
+
+<table class="table mt-5 ml-5">
+    <thead>
+        <tr>
+            <th scope="col">User Name</th>
+            <th scope="col">User Img</th>
+            <th scope="col">User Message</th>
+            <th scope="col">Replay To Message</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var messages in ViewBag.messages)
+        {
+            @foreach (var users in Model.Users)
+            {
+               
+                @if (messages.Messages.from_email == users.user_email || messages.Messages.to_email == users.user_email)
+                {
+                    @if (messages.Messages.from_email == Session_Class.User_Email || messages.Messages.to_email == Session_Class.User_Email)
+                    {
+                        @if (messages.Messages.message_id == users.user_id || messages.user_id == users.user_id)
+                        {
+
+                            <tr>
+                                <td>@users.user_name</td>
+                                <td>
+                                    <div>
+                                        <img src="~/@Url.Content(users.user_img)" alt="" style="width: 45px; height: 45px" class="rounded-circle" />
+                                    </div>
+                                </td>
+                                <td>@messages.Replay_text</td>
+                                @if (users.user_email != Session_Class.User_Email)
+                                {
+                                    <td>
+                                        <a asp-route-id="@messages.Id" asp-action="replay_message_profile" asp-controller="Home" class="btn btn-primary">
+                                            Replay To @users.user_name
+                                        </a>
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td></td>
+                                }
+                            </tr>
+                        }
+                    }
+                    }
+                }
+            }
+    </tbody>
+</table>

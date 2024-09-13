@@ -13,6 +13,7 @@ namespace CompanyManagmentApplication.Database
         public DbSet<Role> roles { get; set; }
         public DbSet<Products> Products { get; set; }
         public DbSet<Messages> Messages { get; set; }
+        public DbSet<Message_Replay> message_Replays { get; set; }
 
     }
 }

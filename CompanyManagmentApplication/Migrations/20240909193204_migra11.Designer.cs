@@ -4,6 +4,7 @@ using CompanyManagmentApplication.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CompanyManagmentApplication.Migrations
 {
     [DbContext(typeof(Data))]
-    partial class DataModelSnapshot : ModelSnapshot
+    [Migration("20240909193204_migra11")]
+    partial class migra11
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,12 +37,7 @@ namespace CompanyManagmentApplication.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("message_id")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("message_id");
 
                     b.ToTable("message_Replays");
                 });
@@ -64,12 +62,7 @@ namespace CompanyManagmentApplication.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("user_id")
-                        .HasColumnType("int");
-
                     b.HasKey("message_id");
-
-                    b.HasIndex("user_id");
 
                     b.ToTable("Messages");
                 });
@@ -165,24 +158,6 @@ namespace CompanyManagmentApplication.Migrations
                     b.HasIndex("role_id");
 
                     b.ToTable("users");
-                });
-
-            modelBuilder.Entity("CompanyManagmentApplication.Models.Message_Replay", b =>
-                {
-                    b.HasOne("CompanyManagmentApplication.Models.Messages", "Messages")
-                        .WithMany()
-                        .HasForeignKey("message_id");
-
-                    b.Navigation("Messages");
-                });
-
-            modelBuilder.Entity("CompanyManagmentApplication.Models.Messages", b =>
-                {
-                    b.HasOne("CompanyManagmentApplication.Models.Users", "Users")
-                        .WithMany()
-                        .HasForeignKey("user_id");
-
-                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("CompanyManagmentApplication.Models.Products", b =>

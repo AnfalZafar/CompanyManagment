@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/message_profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtZXNzYWdlX3Byb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/pending_product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwZW5kaW5nX3Byb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +52,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/product_model.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcm9kdWN0X21vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/Reject_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWplY3RfcHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/replay_message_profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxyZXBsYXlfbWVzc2FnZV9wcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/show_employ.cshtml]
@@ -66,8 +78,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2ZXJpZnlfcHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/your_messages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx5b3VyX21lc3NhZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/your_pending_product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx5b3VyX3BlbmRpbmdfcHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Home/you_replay_messages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx5b3VfcmVwbGF5X21lc3NhZ2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Noman Traders/Desktop/CompanyManagment/CompanyManagmentApplication/Views/Shared/Error.cshtml]
