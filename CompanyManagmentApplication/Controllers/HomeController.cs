@@ -353,11 +353,13 @@ namespace CompanyManagmentApplication.Controllers
         public IActionResult replay_message()
         {
             int message_id = int.Parse(Request.Form["message_user_id"]);
+            int user_id = int.Parse(Request.Form["user_id"]);
             var replay_text = Request.Form["replay_text"].ToString();
             Message_Replay message_Replay = new Message_Replay()
             {
                 message_id = message_id,
-                Replay_text = replay_text
+                Replay_text = replay_text,
+                user_id = user_id
             };
             dbcontext.Add(message_Replay);
             dbcontext.SaveChanges();
@@ -391,11 +393,13 @@ namespace CompanyManagmentApplication.Controllers
         public IActionResult replay_message_replay()
         {
             int message_id = int.Parse(Request.Form["message_user_id"]);
+            int user_id = int.Parse(Request.Form["user_id"]);
             var replay_text = Request.Form["replay_text"].ToString();
             Message_Replay message_Replay = new Message_Replay()
             {
                 message_id = message_id,
-                Replay_text = replay_text
+                Replay_text = replay_text,
+                user_id = user_id
             };
             dbcontext.Add(message_Replay);
             dbcontext.SaveChanges();

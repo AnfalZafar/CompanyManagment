@@ -46,7 +46,8 @@
                                  src="~/@Url.Content(user.user_img)" alt="avatar" width="40"
                                  height="40" />
                             <div data-mdb-input-init class="form-outline w-100">
-                                <input type="text" name="message_user_id" value="@message.message_id" />
+                                <input type="hidden" name="message_user_id" value="@message.message_id" />
+                                                <input type="hidden" name="user_id" value="@Session_Class.User_Id" />
                                 <textarea class="form-control" name="replay_text" id="textAreaExample" rows="4"
                                           style="background: #fff;"></textarea>
                                 <label class="form-label" for="textAreaExample">Replay To @user.user_name</label>

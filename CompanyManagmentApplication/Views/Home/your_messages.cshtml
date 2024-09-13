@@ -21,11 +21,10 @@
             @foreach (var users in Model.Users)
             {
                
-                @if (messages.Messages.from_email == users.user_email || messages.Messages.to_email == users.user_email)
-                {
+               
                     @if (messages.Messages.from_email == Session_Class.User_Email || messages.Messages.to_email == Session_Class.User_Email)
                     {
-                        @if (messages.Messages.message_id == users.user_id || messages.user_id == users.user_id)
+                        @if (messages.user_id == users.user_id)
                         {
 
                             <tr>
@@ -53,6 +52,5 @@
                     }
                     }
                 }
-            }
     </tbody>
 </table>
